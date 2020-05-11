@@ -1,0 +1,17 @@
+---
+ - name: pass junos set and delete commands
+   hosts: JUNOS
+   connection: local
+   gather_facts: no
+
+   tasks:
+   - name: pass junos set and delete commands  
+     junos_config:
+      backup: yes
+      update: merge
+      provider: "{{ credentials }}"
+      lines:
+       - set system login message "new banner"
+       - delete groups POC_Lab system name-server 172.29.131.60
+      comment: configured by Ansible using the playbook pb.configure.lines.yml
+

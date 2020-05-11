@@ -1,0 +1,804 @@
+
+Peer: 10.0.2.0+54501 AS 65200  Local: 10.0.2.1+179 AS 65101
+  Group: Internet              Routing-Instance: INTERNET
+  Forwarding routing-instance: INTERNET  
+  Type: External    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Export: [ export_EVPN_to_WAN ] 
+  Options: <Preference PeerAS Multipath Refresh>
+  Options: <MultipathAs>
+  Holdtime: 90 Preference: 170
+  Number of flaps: 0
+  Peer ID: 191.168.101.1   Local ID: 10.0.2.1          Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 4    Peer index: 0    SNMP index: 14    
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: disabled, down
+  Local Interface: et-0/0/5.0                       
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65200)
+  Peer does not support Addpath
+  Table INTERNET.inet.0 Bit: 40000
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: in sync
+    Active prefixes:              1
+    Received prefixes:            1
+    Accepted prefixes:            1
+    Suppressed due to damping:    0
+    Advertised prefixes:          20
+  Last traffic (seconds): Received 4973161 Sent 4973053 Checked 4973161
+  Input messages:  Total 182479	Updates 2	Refreshes 0	Octets 3467174
+  Output messages: Total 178241	Updates 1	Refreshes 0	Octets 3386667
+  Output Queue[3]: 0            (INTERNET.inet.0, inet-unicast)
+
+Peer: 10.0.2.4+56960 AS 65200  Local: 10.0.2.5+179 AS 65101
+  Group: Internet              Routing-Instance: INTERNET
+  Forwarding routing-instance: INTERNET  
+  Type: External    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Export: [ export_EVPN_to_WAN ] 
+  Options: <Preference PeerAS Multipath Refresh>
+  Options: <MultipathAs>
+  Holdtime: 90 Preference: 170
+  Number of flaps: 0
+  Peer ID: 191.168.101.1   Local ID: 10.0.2.1          Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 4    Peer index: 1    SNMP index: 15    
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: disabled, down
+  Local Interface: et-0/0/6.0                       
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65200)
+  Peer does not support Addpath
+  Table INTERNET.inet.0 Bit: 40000
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: in sync
+    Active prefixes:              1
+    Received prefixes:            1
+    Accepted prefixes:            1
+    Suppressed due to damping:    0
+    Advertised prefixes:          20
+  Last traffic (seconds): Received 4973161 Sent 4973053 Checked 4973161
+  Input messages:  Total 182300	Updates 2	Refreshes 0	Octets 3463773
+  Output messages: Total 178241	Updates 1	Refreshes 0	Octets 3386667
+  Output Queue[3]: 0            (INTERNET.inet.0, inet-unicast)
+
+Peer: 10.0.2.9+179 AS 200      Local: 10.0.2.8+63627 AS 301  
+  Group: EBGP-Core             Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: External    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: Cease
+  Export: [ bgp-ip-clos-out ] 
+  Options: <Preference LocalAddress PeerAS Multipath LocalAS Refresh>
+  Options: <MtuDiscovery MultipathAs BfdEnabled>
+  Local Address: 10.0.2.8 Holdtime: 90 Preference: 170 Local AS: 301
+  Local System AS: 301
+  Number of flaps: 2
+  Last flap event: Stop
+  Error: 'Cease' Sent: 2 Recv: 0
+  Peer ID: 191.168.101.5   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 2    Peer index: 4    SNMP index: 9     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  Local Interface: et-0/0/0.0                       
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 200)
+  Peer does not support Addpath
+  Table inet.0 Bit: 30000
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              7
+    Received prefixes:            14
+    Accepted prefixes:            14
+    Suppressed due to damping:    0
+    Advertised prefixes:          27
+  Last traffic (seconds): Received 4973161 Sent 2012583 Checked 4973161
+  Input messages:  Total 182168	Updates 23	Refreshes 0	Octets 3461992
+  Output messages: Total 178116	Updates 33	Refreshes 0	Octets 3385412
+  Output Queue[2]: 0            (inet.0, inet-unicast)
+
+Peer: 10.0.2.11+179 AS 201     Local: 10.0.2.10+56547 AS 301  
+  Group: EBGP-Core             Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: External    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: Cease
+  Export: [ bgp-ip-clos-out ] 
+  Options: <Preference LocalAddress PeerAS Multipath LocalAS Refresh>
+  Options: <MtuDiscovery MultipathAs BfdEnabled>
+  Local Address: 10.0.2.10 Holdtime: 90 Preference: 170 Local AS: 301
+  Local System AS: 301
+  Number of flaps: 3
+  Last flap event: Stop
+  Error: 'Cease' Sent: 3 Recv: 0
+  Peer ID: 191.168.101.6   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 2    Peer index: 0    SNMP index: 10    
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  Local Interface: et-0/0/1.0                       
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 201)
+  Peer does not support Addpath
+  Table inet.0 Bit: 30000
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              7
+    Received prefixes:            8
+    Accepted prefixes:            8
+    Suppressed due to damping:    0
+    Advertised prefixes:          27
+  Last traffic (seconds): Received 4973161 Sent 2012583 Checked 4973161
+  Input messages:  Total 182107	Updates 5	Refreshes 0	Octets 3460179
+  Output messages: Total 178060	Updates 15	Refreshes 0	Octets 3383748
+  Output Queue[2]: 0            (inet.0, inet-unicast)
+
+Peer: 10.0.2.13+51842 AS 202   Local: 10.0.2.12+179 AS 301  
+  Group: EBGP-Core             Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: External    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Export: [ bgp-ip-clos-out ] 
+  Options: <Preference LocalAddress PeerAS Multipath LocalAS Refresh>
+  Options: <MtuDiscovery MultipathAs BfdEnabled>
+  Local Address: 10.0.2.12 Holdtime: 90 Preference: 170 Local AS: 301
+  Local System AS: 301
+  Number of flaps: 0
+  Peer ID: 191.168.102.1   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 2    Peer index: 1    SNMP index: 7     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  Local Interface: et-0/0/2.0                       
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 202)
+  Peer does not support Addpath
+  Table inet.0 Bit: 30000
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              7
+    Received prefixes:            13
+    Accepted prefixes:            13
+    Suppressed due to damping:    0
+    Advertised prefixes:          26
+  Last traffic (seconds): Received 4973161 Sent 2012583 Checked 4973161
+  Input messages:  Total 181437	Updates 91	Refreshes 0	Octets 3450503
+  Output messages: Total 178341	Updates 100	Refreshes 0	Octets 3392090
+  Output Queue[2]: 0            (inet.0, inet-unicast)
+
+Peer: 10.0.2.15+55814 AS 203   Local: 10.0.2.14+179 AS 301  
+  Group: EBGP-Core             Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: External    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Export: [ bgp-ip-clos-out ] 
+  Options: <Preference LocalAddress PeerAS Multipath LocalAS Refresh>
+  Options: <MtuDiscovery MultipathAs BfdEnabled>
+  Local Address: 10.0.2.14 Holdtime: 90 Preference: 170 Local AS: 301
+  Local System AS: 301
+  Number of flaps: 0
+  Peer ID: 191.168.102.2   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 2    Peer index: 2    SNMP index: 8     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  Local Interface: et-0/0/3.0                       
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 203)
+  Peer does not support Addpath
+  Table inet.0 Bit: 30000
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              7
+    Received prefixes:            13
+    Accepted prefixes:            13
+    Suppressed due to damping:    0
+    Advertised prefixes:          26
+  Last traffic (seconds): Received 4973161 Sent 2012583 Checked 4973161
+  Input messages:  Total 181429	Updates 85	Refreshes 0	Octets 3450116
+  Output messages: Total 178337	Updates 97	Refreshes 0	Octets 3391964
+  Output Queue[2]: 0            (inet.0, inet-unicast)
+
+Peer: 10.0.2.17+63940 AS 204   Local: 10.0.2.16+179 AS 301  
+  Group: EBGP-Core             Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: External    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Export: [ bgp-ip-clos-out ] 
+  Options: <Preference LocalAddress PeerAS Multipath LocalAS Refresh>
+  Options: <MtuDiscovery MultipathAs BfdEnabled>
+  Local Address: 10.0.2.16 Holdtime: 90 Preference: 170 Local AS: 301
+  Local System AS: 301
+  Number of flaps: 0
+  Peer ID: 191.168.101.7   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 2    Peer index: 3    SNMP index: 11    
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  Local Interface: et-0/0/4.0                       
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 204)
+  Peer does not support Addpath
+  Table inet.0 Bit: 30000
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              9
+    Received prefixes:            17
+    Accepted prefixes:            17
+    Suppressed due to damping:    0
+    Advertised prefixes:          21
+  Last traffic (seconds): Received 4973161 Sent 2012583 Checked 4973161
+  Input messages:  Total 182357	Updates 49	Refreshes 0	Octets 3466291
+  Output messages: Total 178343	Updates 103	Refreshes 0	Octets 3392252
+  Output Queue[2]: 0            (inet.0, inet-unicast)
+
+Peer: 10.254.254.0+63252 AS 2201 Local: 10.254.254.1+179 AS 301  
+  Group: EBGP-DCI              Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: External    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Export: [ export_lo0 ] 
+  Options: <Preference PeerAS Multipath LocalAS Refresh>
+  Options: <MultipathAs BfdEnabled>
+  Holdtime: 90 Preference: 170 Local AS: 301 Local System AS: 301
+  Number of flaps: 0
+  Peer ID: 191.168.100.1   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 0    Peer index: 1    SNMP index: 0     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  Local Interface: et-0/0/12.0                      
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 2201)
+  Peer does not support Addpath
+  Table inet.0 Bit: 30001
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              2
+    Received prefixes:            11
+    Accepted prefixes:            9
+    Suppressed due to damping:    0
+    Advertised prefixes:          17
+  Last traffic (seconds): Received 4973161 Sent 4967627 Checked 4973161
+  Input messages:  Total 180631	Updates 119	Refreshes 0	Octets 3436520
+  Output messages: Total 178315	Updates 75	Refreshes 0	Octets 3390934
+  Output Queue[2]: 0            (inet.0, inet-unicast)
+
+Peer: 10.254.254.4+60612 AS 2202 Local: 10.254.254.5+179 AS 301  
+  Group: EBGP-DCI              Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: External    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Export: [ export_lo0 ] 
+  Options: <Preference PeerAS Multipath LocalAS Refresh>
+  Options: <MultipathAs BfdEnabled>
+  Holdtime: 90 Preference: 170 Local AS: 301 Local System AS: 301
+  Number of flaps: 0
+  Peer ID: 191.168.100.2   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 0    Peer index: 0    SNMP index: 1     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  Local Interface: et-0/0/13.0                      
+  NLRI for restart configured on peer: inet-unicast
+  NLRI advertised by peer: inet-unicast
+  NLRI for this session: inet-unicast
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: inet-unicast
+  NLRI of received end-of-rib markers: inet-unicast
+  NLRI of all end-of-rib markers sent: inet-unicast
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 2202)
+  Peer does not support Addpath
+  Table inet.0 Bit: 30001
+    RIB State: BGP restart is complete
+    Send state: in sync
+    Active prefixes:              2
+    Received prefixes:            11
+    Accepted prefixes:            9
+    Suppressed due to damping:    0
+    Advertised prefixes:          16
+  Last traffic (seconds): Received 4973161 Sent 4967627 Checked 4973161
+  Input messages:  Total 180639	Updates 127	Refreshes 0	Octets 3436934
+  Output messages: Total 178322	Updates 82	Refreshes 0	Octets 3391470
+  Output Queue[2]: 0            (inet.0, inet-unicast)
+
+Peer: 191.168.100.1+179 AS 65100 Local: 191.168.101.3+52509 AS 65101
+  Group: EBGP-DCI-EVPN         Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: External    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Options: <Multihop NoNextHopChange Preference LocalAddress AddressFamily PeerAS Multipath LocalAS Rib-group Refresh>
+  Options: <MultipathAs BfdEnabled>
+  Address families configured: evpn
+  Local Address: 191.168.101.3 Holdtime: 90 Preference: 170 Local AS: 65101
+  Local System AS: 301
+  Number of flaps: 0
+  Peer ID: 191.168.100.1   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 3    Peer index: 0    SNMP index: 12    
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  NLRI for restart configured on peer: evpn
+  NLRI advertised by peer: evpn
+  NLRI for this session: evpn
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: evpn
+  NLRI of received end-of-rib markers: evpn
+  NLRI of all end-of-rib markers sent: evpn
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65100)
+  Peer does not support Addpath
+  Table bgp.evpn.0 Bit: 20001
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: in sync
+    Active prefixes:              165
+    Received prefixes:            165
+    Accepted prefixes:            165
+    Suppressed due to damping:    0
+    Advertised prefixes:          953
+  Table DCI-VRF.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              40
+    Received prefixes:            40
+    Accepted prefixes:            40
+    Suppressed due to damping:    0
+  Table INTERNET.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+  Last traffic (seconds): Received 4973161 Sent 1269208 Checked 4973161
+  Input messages:  Total 183012	Updates 2501	Refreshes 0	Octets 4023235
+  Output messages: Total 3758893	Updates 3581239	Refreshes 0	Octets 483988544
+  Output Queue[1]: 0            (bgp.evpn.0, evpn)
+
+Peer: 191.168.100.2+179 AS 65100 Local: 191.168.101.3+61312 AS 65101
+  Group: EBGP-DCI-EVPN         Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: External    State: Established    Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Options: <Multihop NoNextHopChange Preference LocalAddress AddressFamily PeerAS Multipath LocalAS Rib-group Refresh>
+  Options: <MultipathAs BfdEnabled>
+  Address families configured: evpn
+  Local Address: 191.168.101.3 Holdtime: 90 Preference: 170 Local AS: 65101
+  Local System AS: 301
+  Number of flaps: 0
+  Peer ID: 191.168.100.2   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 3    Peer index: 1    SNMP index: 13    
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  NLRI for restart configured on peer: evpn
+  NLRI advertised by peer: evpn
+  NLRI for this session: evpn
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: evpn
+  NLRI of received end-of-rib markers: evpn
+  NLRI of all end-of-rib markers sent: evpn
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65100)
+  Peer does not support Addpath
+  Table bgp.evpn.0 Bit: 20001
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: in sync
+    Active prefixes:              118
+    Received prefixes:            118
+    Accepted prefixes:            118
+    Suppressed due to damping:    0
+    Advertised prefixes:          953
+  Table DCI-VRF.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              20
+    Received prefixes:            20
+    Accepted prefixes:            20
+    Suppressed due to damping:    0
+  Table INTERNET.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+  Last traffic (seconds): Received 4973161 Sent 1269208 Checked 4973161
+  Input messages:  Total 193509	Updates 12998	Refreshes 0	Octets 4809661
+  Output messages: Total 3759434	Updates 3581232	Refreshes 0	Octets 483987546
+  Output Queue[1]: 0            (bgp.evpn.0, evpn)
+
+Peer: 191.168.101.5+64236 AS 65101 Local: 191.168.101.3+179 AS 65101
+  Group: IBGP-EVPN-Core        Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Established  (route reflector client)Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Options: <Preference LocalAddress Cluster AddressFamily Multipath LocalAS Rib-group Refresh>
+  Options: <MultipathAs BfdEnabled>
+  Address families configured: evpn
+  Local Address: 191.168.101.3 Holdtime: 90 Preference: 170 Local AS: 65101
+  Local System AS: 301
+  Number of flaps: 2
+  Last flap event: BfdDown
+  Peer ID: 191.168.101.5   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 1    Peer index: 2    SNMP index: 2     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  NLRI for restart configured on peer: evpn
+  NLRI advertised by peer: evpn
+  NLRI for this session: evpn
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: evpn
+  NLRI of received end-of-rib markers: evpn
+  NLRI of all end-of-rib markers sent: evpn
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65101)
+  Peer does not support Addpath
+  Table bgp.evpn.0 Bit: 20000
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: in sync
+    Active prefixes:              179
+    Received prefixes:            179
+    Accepted prefixes:            179
+    Suppressed due to damping:    0
+    Advertised prefixes:          1057
+  Table DCI-VRF.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+  Table INTERNET.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              3
+    Received prefixes:            3
+    Accepted prefixes:            3
+    Suppressed due to damping:    0
+  Last traffic (seconds): Received 4973161 Sent 21 Checked 4973161
+  Input messages:  Total 3105116	Updates 2922974	Refreshes 0	Octets 409063067
+  Output messages: Total 2418699	Updates 2240731	Refreshes 0	Octets 296774878
+  Output Queue[1]: 0            (bgp.evpn.0, evpn)
+
+Peer: 191.168.101.6+63317 AS 65101 Local: 191.168.101.3+179 AS 65101
+  Group: IBGP-EVPN-Core        Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Established  (route reflector client)Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Options: <Preference LocalAddress Cluster AddressFamily Multipath LocalAS Rib-group Refresh>
+  Options: <MultipathAs BfdEnabled>
+  Address families configured: evpn
+  Local Address: 191.168.101.3 Holdtime: 90 Preference: 170 Local AS: 65101
+  Local System AS: 301
+  Number of flaps: 3
+  Last flap event: BfdDown
+  Peer ID: 191.168.101.6   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 1    Peer index: 3    SNMP index: 3     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  NLRI for restart configured on peer: evpn
+  NLRI advertised by peer: evpn
+  NLRI for this session: evpn
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: evpn
+  NLRI of received end-of-rib markers: evpn
+  NLRI of all end-of-rib markers sent: evpn
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65101)
+  Peer does not support Addpath
+  Table bgp.evpn.0 Bit: 20000
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: in sync
+    Active prefixes:              177
+    Received prefixes:            180
+    Accepted prefixes:            180
+    Suppressed due to damping:    0
+    Advertised prefixes:          1059
+  Table DCI-VRF.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+  Table INTERNET.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              0
+    Received prefixes:            3
+    Accepted prefixes:            3
+    Suppressed due to damping:    0
+  Last traffic (seconds): Received 4973161 Sent 21 Checked 4973161
+  Input messages:  Total 2890607	Updates 2708506	Refreshes 0	Octets 366554198
+  Output messages: Total 3087580	Updates 2909566	Refreshes 0	Octets 421290349
+  Output Queue[1]: 0            (bgp.evpn.0, evpn)
+
+Peer: 191.168.101.7+60108 AS 65101 Local: 191.168.101.3+179 AS 65101
+  Group: IBGP-EVPN-Core        Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Established  (route reflector client)Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Options: <Preference LocalAddress Cluster AddressFamily Multipath LocalAS Rib-group Refresh>
+  Options: <MultipathAs BfdEnabled>
+  Address families configured: evpn
+  Local Address: 191.168.101.3 Holdtime: 90 Preference: 170 Local AS: 65101
+  Local System AS: 301
+  Number of flaps: 0
+  Peer ID: 191.168.101.7   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 1    Peer index: 1    SNMP index: 4     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  NLRI for restart configured on peer: evpn
+  NLRI advertised by peer: evpn
+  NLRI for this session: evpn
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: evpn
+  NLRI of received end-of-rib markers: evpn
+  NLRI of all end-of-rib markers sent: evpn
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65101)
+  Peer does not support Addpath
+  Table bgp.evpn.0 Bit: 20000
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: in sync
+    Active prefixes:              259
+    Received prefixes:            259
+    Accepted prefixes:            259
+    Suppressed due to damping:    0
+    Advertised prefixes:          977
+  Table DCI-VRF.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              60
+    Received prefixes:            60
+    Accepted prefixes:            60
+    Suppressed due to damping:    0
+  Table INTERNET.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              31
+    Received prefixes:            31
+    Accepted prefixes:            31
+    Suppressed due to damping:    0
+  Last traffic (seconds): Received 4973161 Sent 21 Checked 4973161
+  Input messages:  Total 182319	Updates 7	Refreshes 4	Octets 3475868
+  Output messages: Total 3783712	Updates 3605524	Refreshes 0	Octets 517619680
+  Output Queue[1]: 0            (bgp.evpn.0, evpn)
+
+Peer: 191.168.102.1+179 AS 65101 Local: 191.168.101.3+52455 AS 65101
+  Group: IBGP-EVPN-Core        Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Established  (route reflector client)Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Options: <Preference LocalAddress Cluster AddressFamily Multipath LocalAS Rib-group Refresh>
+  Options: <MultipathAs BfdEnabled>
+  Address families configured: evpn
+  Local Address: 191.168.101.3 Holdtime: 90 Preference: 170 Local AS: 65101
+  Local System AS: 301
+  Number of flaps: 0
+  Peer ID: 191.168.102.1   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 1    Peer index: 4    SNMP index: 5     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  NLRI for restart configured on peer: evpn
+  NLRI advertised by peer: evpn
+  NLRI for this session: evpn
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: evpn
+  NLRI of received end-of-rib markers: evpn
+  NLRI of all end-of-rib markers sent: evpn
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65101)
+  Peer does not support Addpath
+  Table bgp.evpn.0 Bit: 20000
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: in sync
+    Active prefixes:              171
+    Received prefixes:            174
+    Accepted prefixes:            174
+    Suppressed due to damping:    0
+    Advertised prefixes:          1065
+  Table DCI-VRF.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+  Table INTERNET.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              0
+    Received prefixes:            3
+    Accepted prefixes:            3
+    Suppressed due to damping:    0
+  Last traffic (seconds): Received 4973161 Sent 21 Checked 4973161
+  Input messages:  Total 2980660	Updates 2799318	Refreshes 0	Octets 387176624
+  Output messages: Total 3008969	Updates 2830787	Refreshes 0	Octets 413273709
+  Output Queue[1]: 0            (bgp.evpn.0, evpn)
+
+Peer: 191.168.102.2+179 AS 65101 Local: 191.168.101.3+62995 AS 65101
+  Group: IBGP-EVPN-Core        Routing-Instance: master
+  Forwarding routing-instance: master  
+  Type: Internal    State: Established  (route reflector client)Flags: <Sync>
+  Last State: OpenConfirm   Last Event: RecvKeepAlive
+  Last Error: None
+  Options: <Preference LocalAddress Cluster AddressFamily Multipath LocalAS Rib-group Refresh>
+  Options: <MultipathAs BfdEnabled>
+  Address families configured: evpn
+  Local Address: 191.168.101.3 Holdtime: 90 Preference: 170 Local AS: 65101
+  Local System AS: 301
+  Number of flaps: 0
+  Peer ID: 191.168.102.2   Local ID: 191.168.101.3     Active Holdtime: 90
+  Keepalive Interval: 30         Group index: 1    Peer index: 0    SNMP index: 6     
+  I/O Session Thread: bgpio-0 State: Enabled
+  BFD: enabled, up
+  NLRI for restart configured on peer: evpn
+  NLRI advertised by peer: evpn
+  NLRI for this session: evpn
+  Peer supports Refresh capability (2)
+  Stale routes from peer are kept for: 300
+  Peer does not support Restarter functionality
+  Restart flag received from the peer: Notification
+  NLRI that restart is negotiated for: evpn
+  NLRI of received end-of-rib markers: evpn
+  NLRI of all end-of-rib markers sent: evpn
+  Peer does not support LLGR Restarter functionality
+  Peer supports 4 byte AS extension (peer-as 65101)
+  Peer does not support Addpath
+  Table bgp.evpn.0 Bit: 20000
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: in sync
+    Active prefixes:              164
+    Received prefixes:            167
+    Accepted prefixes:            167
+    Suppressed due to damping:    0
+    Advertised prefixes:          1072
+  Table DCI-VRF.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              0
+    Received prefixes:            0
+    Accepted prefixes:            0
+    Suppressed due to damping:    0
+  Table INTERNET.evpn.0
+    RIB State: BGP restart is complete
+    RIB State: VPN restart is complete
+    Send state: not advertising
+    Active prefixes:              0
+    Received prefixes:            3
+    Accepted prefixes:            3
+    Suppressed due to damping:    0
+  Last traffic (seconds): Received 4973161 Sent 21 Checked 4973161
+  Input messages:  Total 2995783	Updates 2814440	Refreshes 0	Octets 395543878
+  Output messages: Total 2994570	Updates 2816394	Refreshes 0	Octets 412442601
+  Output Queue[1]: 0            (bgp.evpn.0, evpn)

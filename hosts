@@ -1,0 +1,21 @@
+[JUNOS:children]
+QFX
+
+[QFX:children]
+QFX5110
+QFX10K2
+
+[QFX5110]
+QFX-Lab  junos_host=10.0.5.42
+
+
+[QFX10K2]
+Spine1  junos_host=10.0.5.15
+Spine2  junos_host=10.0.5.16
+Leaf1  junos_host=10.0.5.17
+Leaf2  junos_host=10.0.5.18
+Leaf3  junos_host=10.0.5.25
+Leaf4  junos_host=10.0.5.26
+
+
+
